@@ -1,9 +1,10 @@
 import { twMerge } from "tailwind-merge"
 
-const Button = ({ text, classes }) => {
+const Button = ({ text, classes, click }) => {
   return (
     <>
-    <button 
+    <button
+      onClick={click}
       className={twMerge('font-semibold rounded-full', classes)}>
       {text}
     </button>

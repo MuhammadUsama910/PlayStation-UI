@@ -11,6 +11,97 @@ export const imageArr = [
   "image8.png"
 ];
 
+export const accessoriesArr = [
+  "PS5.jpg", 
+  "Console.jpg", 
+  "Headphone.jpg", 
+  "Earbuds.jpg",
+  "PS5Console.jpg", 
+  "Controller.jpg",
+  "Remote.jpg",
+  "Camera.jpg"
+];
+
+export const newReleasesArr = [
+  {
+    game: "fortnight.jpg",
+    text: "Fortnight"
+  },
+  {
+    game: "fc.jpg",
+    text: "EA Sports"
+  },
+  {
+    game: "ronin.jpg",
+    text: "Ronin"
+  },
+  {
+    game: "fortnight.jpg",
+    text: "Fortnight"
+  },
+  {
+    game: "fc.jpg",
+    text: "EA Sports"
+  },
+  {
+    game: "ronin.jpg",
+    text: "Ronin"
+  },
+  {
+    game: "fortnight.jpg",
+    text: "Fortnight"
+  },
+  {
+    game: "fc.jpg",
+    text: "EA Sports"
+  },
+  {
+    game: "ronin.jpg",
+    text: "Ronin"
+  }
+ 
+];
+
+export const comingSoonArr = [
+  {
+    game: "cod.jpg",
+    text: "COD"
+  }, 
+  {
+    game: "helldivers.jpg",
+    text: "Helldivers"
+  },
+  {
+    game: "spiderman.jpg",
+    text: "Spiderman"
+  },
+  {
+    game: "cod.jpg",
+    text: "COD"
+  }, 
+  {
+    game: "helldivers.jpg",
+    text: "Helldivers"
+  }, 
+  {
+    game: "spiderman.jpg",
+    text: "Spiderman"
+  },
+  {
+    game: "cod.jpg",
+    text: "COD"
+  }, 
+  {
+    game: "helldivers.jpg",
+    text: "Helldivers"
+  },
+  {
+    game: "spiderman.jpg",
+    text: "Spiderman"
+  }
+ 
+];
+
 export const footerArrayOfObjects = [
   {
     header: "About",
@@ -51,27 +142,27 @@ export const latestNewsArray = [
     image: "Helldivers.jpg",
     heading: "Helldivers 2’s biggest update yet, Escalation of Freedom, drops August 6",
     paragraph: "Welcome to the Escalation of Freedom, Helldivers. We’ve taken the time to gather feedback from our players on the front lines",
-    icon: "NTE_2.jpg",
+    icon: "Helldivers_2.png",
     name: "Katherine Baskin",
     designation: "Social Media and Community Manager, Arrowhead Game Studios",
     date: "Jul 23, 2024"
   },
 
   {
-    image: "Toweroffantasy.jpg",
+    image: "MortalKombat.jpg",
     heading: "Tower of Fantasy’s first anniversary brings Summer events and a new companion",
     paragraph: "Hello, everyone. I’m Sky, the lead designer from Perfect World Games’ Hotta Studio. It’s hard to believe",
-    icon: "Toweroffantasy_2.jpg",
+    icon: "Mortalkombat_2.jpg",
     name: "Sky Wang",
     designation: "Lead Designer, Perfect World Games",
     date: "Jul 22, 2024"
   },
 
   {
-    image: "Helldivers.jpg",
+    image: "Shareweek.jpg",
     heading: "Helldivers 2’s biggest update yet, Escalation of Freedom, drops August 6",
     paragraph: "Welcome to the Escalation of Freedom, Helldivers. We’ve taken the time to gather feedback from our players on the front lines",
-    icon: "NTE_2.jpg",
+    icon: "Shareweek_2.jpg",
     name: "Katherine Baskin",
     designation: "Social Media and Community Manager, Arrowhead Game Studios",
     date: "Jul 23, 2024"

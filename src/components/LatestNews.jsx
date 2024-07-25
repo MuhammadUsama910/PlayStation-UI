@@ -1,21 +1,21 @@
 import { latestNewsArray } from "../constants/constants"
 
-export const LatestNews = () => {
+const LatestNews = () => {
   return (
     <>
     <section className="container py-16 bg-white">
 
-      <div className="px-16 text-2xl md:text-3xl lg:text-4xl font-thin text-black text-center">
+      <div className="px-16 text-2xl md:text-3xl lg:text-4xl font-normal sm:font-thin text-black text-center">
         <p> The latest news from PlayStation Blog </p>
       </div>
 
       
-      <div className="px-2 sm:px-6 md:px-8 mt-10 grid grid-cols-3 gap-0.5 sm:gap-2 md:gap-3 lg:gap-4">
+      <div className="px-1.5 sm:px-6 md:px-8 mt-10 grid grid-cols-3 gap-1 sm:gap-2 md:gap-3 lg:gap-4">
 
         {latestNewsArray?.map((item, index) => (
           <div 
             key={index}
-            className="p-1 md:p-1.5 lg:p-3 rounded shadow hover:shadow-xl"
+            className="p-1 md:p-1.5 lg:p-3 rounded shadow hover:shadow-xl cursor-pointer"
           >
             <img
               className="rounded-lg shadow-sm hover:shadow-lg"
@@ -61,3 +61,5 @@ export const LatestNews = () => {
     </>  
   )
 }
+
+export default LatestNews;

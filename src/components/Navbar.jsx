@@ -7,7 +7,7 @@ import { IoIosSearch, IoIosMenu } from "react-icons/io";
 import Button from "./Button";
 import { navLinks } from "../constants/constants";
 
-export const Navbar = () => {
+const Navbar = () => {
 
   const [openSearch, setOpenSearch] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
@@ -117,3 +117,5 @@ export const Navbar = () => {
     </>
   )
 }
+
+export default Navbar;

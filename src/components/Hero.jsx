@@ -1,25 +1,23 @@
 import Button from "./Button"
 import CardCarousel from "./CardCarousel"
-// import CardCarousel from "./CardCarousel"
-// import { imageArr } from "../constants/constants"
 
 
-export const Hero = () => {
+const Hero = () => {
 
   // const [imageState, setImageState] = useState("");
 
-  // const selectActiveImage = (index) => {
-  //   let activeImageIndex = index;
-  //   const image = imageArr.find((item) => item === imageArr[activeImageIndex] );
-  //   // console.log(image);
-  //   image ? setImageState(image) : null; 
-  // }
+  // const [activeBgImage, setActiveBgImage] = useState('/src/assets/NBA_1.png');
+
+  // const handleSlideChange = (bgImage) => {
+  //   setActiveBgImage(bgImage);
+  // } 
 
   return (
     <>
     <section className="container w-full">
       
       <div 
+        // style={{ backgroundImage: `url(${activeBgImage})` }}
         className={`w-full bg-[url('/src/assets/NBA_1.png')] bg-cover bg-center bg-no-repeat flex flex-col justify-end 
         lg:justify-start select-none
         max-sm:pt-28 sm:pt-36 sm:pl-0 md:pt-32 lg:pl-20 lg:pt-0 xl:pl-40 xl:pt-16 2xl:pl-20`}
@@ -50,10 +48,12 @@ export const Hero = () => {
 
 
       <div className="w-full rounded-xl px-8 sm:px-12 md:px-16 lg:px-20">
-        <CardCarousel/> {/* selectActiveImage={selectActiveImage} */}
+        <CardCarousel NumberProp={1}/> {/* onSlideChange={handleSlideChange} */}
       </div>
     
     </section>
     </>
   )
 }
+
+export default Hero;
